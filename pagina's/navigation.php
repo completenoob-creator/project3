@@ -11,7 +11,6 @@
         <a href="./index.php?content=faq" class="navlink">Faq</a>
       </li>
     </ul>
-    <input class="form-control mr-sm-2 float-right" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0 float-right" type="submit">login</button>
-  </form>
+    <button class="btn btn-outline-success my-2 my-sm-0" id="login" type="submit">login</button>
+  </form> 
 </nav>
