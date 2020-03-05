@@ -1,16 +1,33 @@
-<nav class="navbar navbar-light bg-light" id="nav">
-  <a class="navbar-brand">Doof</a>
-  <form class="form-inline">
-    <ul class="navbar-nav">
-      <li class="navitem">
-        <a href="./index.php?content=home" class="navlink">Home</a>
-        <a href="./index.php?content=game" class="navlink">Game</a>
-        <a href="./index.php?content=informatie" class="navlink">Informatie</a>
-        <a href="./index.php?content=form" class="navlink">Form</a>
-        <a href="./index.php?content=contact" class="navlink">Contact</a>
-        <a href="./index.php?content=faq" class="navlink">Faq</a>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="index.php?content=home">Doof</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php?content=home">Home</a>
       </li>
-    </ul>
-    <button class="btn btn-outline-success my-2 my-sm-0" id="login" type="submit">login</button>
-  </form> 
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?content=informatie">Informatie</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?content=contact">contact</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?content=game">game</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?content=faq">faq</a>
+      </li>
+ </ul>
+    <a href="index.php?content=registreren"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="buttonlogin">Registreren</button></a>
+    <a href="index.php?content=login"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="buttonlogin">login</button></a>
+
+  </div>
 </nav>

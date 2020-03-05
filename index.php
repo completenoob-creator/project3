@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="row bg-light" id="navigation">
+    <div class="row" id="navigation">
         <div class="col- 12">
             <?php include("./pagina's/navigation.php"); ?>
         </div>
