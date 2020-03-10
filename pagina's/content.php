@@ -1,8 +1,4 @@
-<main class="content">
-  <div>
-    <div></div>
-  </div>
-</main>
+
 
 
 

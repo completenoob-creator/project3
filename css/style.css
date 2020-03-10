@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #navigation{
@@ -28,4 +28,11 @@ body{
 #buttonlogin {
     position: relative;
     left: 990px;
+}
+
+#contact {
+    text-indent: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
