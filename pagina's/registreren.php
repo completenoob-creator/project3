@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./css/register.css">
 
-<!------ Include the above in your HEAD tag ---------->
+
 
 <div class="col-md-4 col-md-offset-4" id="login">
 						<section id="inner-wrapper" class="login">
