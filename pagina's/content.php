@@ -1,9 +1,3 @@
-
-
-
-
-
-
 <?php
 if (isset($_GET["content"])) {
   include("./pagina's/" . $_GET["content"] . ".php");

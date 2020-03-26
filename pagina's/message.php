@@ -27,7 +27,17 @@
             header("refresh: 3; url=./index.php?content=registreren");
             break;
 
+        case 'password-empty':
+            echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">Password empty</div>';
+            header("refresh: 3; url=./index.php?content=registreren");
+            break;
 
+         case 'NoMatch-Password':
+            echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">no match password</div>';
+            header("refresh: 3; url=./index.php?content=registreren");
+            break;
+
+                
         default:
             header("Location: ./index.php?content=home");
             break;

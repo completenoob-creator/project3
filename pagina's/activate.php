@@ -19,7 +19,7 @@ if (!(isset($_GET["content"]) && isset($_GET["id"]) && isset($_GET["pwh"]))){
 
       <div class="form-group">
       <label for="inputpasswordcheck"><b>Wachtwoord</b></label>
-      <input name="password" type="password" placeholder="Voer nogmaals uw wachtwoord in" >
+      <input name="passwordcheck" type="password" placeholder="Voer nogmaals uw wachtwoord in" >
       </div>
 
       <p>Bij het maken van uw account gaat u akkoord met de <a href="index.php?content=regelsvoorwaarde">Regeltjes</a> van GeenGehoor.</p>
