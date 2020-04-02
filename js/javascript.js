@@ -1,3 +1,7 @@
+function regisreren(){
+    location = 'index.php?content=registreren';
+};
 
-<button onclick="./pagina's/login" type="button">
-         www.example.com</button>
+function login(){
+    location = 'index.php?content=login';
+};

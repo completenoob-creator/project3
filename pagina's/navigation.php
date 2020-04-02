@@ -25,18 +25,12 @@
       <li class="nav-item">
         <a class="nav-link" href="index.php?content=faq">faq</a>
       </li>
+      
+      <button class="btn btn-outline-success float-left" type="submit" id="buttonlogin" onclick="regisreren()">Registreren</button>
 
-      <li class="nav-item">
-      <a href="index.php?content=registreren"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="buttonlogin">Registreren</button></a>
-      </li>
-
-      <li class="nav-item">
-      <a href="index.php?content=login"><button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="buttonlogin">login</button></a>
-      </li>
+<button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="login()">login</button>
 
  </ul>
-    
-    
-
+ 
   </div>
 </nav>
