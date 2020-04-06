@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="./css/register.css">
 
+<link rel="stylesheet" href="./css/register.css">
 <div class="col-md-4 col-md-offset-4" id="login">
 						<section id="inner-wrapper" class="login">
 							<article>
@@ -16,4 +16,5 @@
 									  <button type="submit" class="btn btn-success btn-block">Submit</button>
 								</form>
 							</article>
-						</section></div>
+						</section>
+					</div>

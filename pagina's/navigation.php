@@ -27,10 +27,11 @@
       </li>
       
       <button class="btn btn-outline-success float-left" type="submit" id="buttonlogin" onclick="regisreren()">Registreren</button>
+      <button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="login()">login</button>
+      </ul>
+      
 
-<button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="login()">login</button>
-
- </ul>
+ 
  
   </div>
 </nav>

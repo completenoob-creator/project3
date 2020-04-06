@@ -40,15 +40,23 @@
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-
+      <button class="btn btn-outline-success float-left" type="submit" id="buttonlogin" onclick="game()">game</button>
     </div>
   </div>
   <div class="card mt-3 imf-card">
-    <img class="card-img-top" src="./img/" alt="Card image cap">
+    <img class="card-img-top" src="./img/regitrati.png" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-
+      <button class="btn btn-outline-success float-left" type="submit" id="buttonlogin" onclick="regisreren()">Registreren</button>
+    </div>
+  </div>
+  <div class="card mt-3 imf-card">
+    <img class="card-img-top" src="./img/login.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="login()">login</button>
     </div>
   </div>
 </div>

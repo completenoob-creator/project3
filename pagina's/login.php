@@ -1,9 +1,9 @@
-<link rel="stylesheet" href="./css/login.css">
-
+  
+  <link rel="stylesheet" href="./css/login.css">
   <div id="formContent">
 <a>Log In</a>
     <!-- Login Form -->
-    <form>
+    <form action="./index.php?content=login_script" method="post">
       <input type="text" id="login" name="login" placeholder="login">
       <input type="password" id="password" name="login" placeholder="password">
       <input type="submit" value="Log In">

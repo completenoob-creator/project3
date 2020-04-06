@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="./favicon/favicon.ico"/>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    
+    
     <title>Doof</title>
 </head>
 
