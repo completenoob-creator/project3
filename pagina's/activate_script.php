@@ -8,7 +8,7 @@
     $password = sanitize($_POST["password"]);
     $passwordcheck = sanitize($_POST["passwordcheck"]);
 
-    if (empty($_POST["password"]) || empty($_POST["passwordcheck"])) {
+    if (empty($_POST["password"]) || empty($_POST["passwordcheck"]) ||empty($_POST["username"])) {
         header("Location: ./index.php?content=message&alert=password-empty&id=$id&pwh=$pwh");
     } elseif (strcmp($password, $passwordcheck)) {
         header("Location: ./index.php?content=message&alert=NoMatch-Password&id=$id&pwh=$pwh");

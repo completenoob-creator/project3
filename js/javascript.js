@@ -5,3 +5,6 @@ function regisreren(){
 function login(){
     location = 'index.php?content=login';
 };
+function game(){
+    location = 'index.php?content=game';
+};

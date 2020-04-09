@@ -26,6 +26,7 @@ body{
 }
 
 #buttonlogin {
+<<<<<<< HEAD
    
   
     margin: 0px 5px;
@@ -35,6 +36,17 @@ body{
     
    
     margin: 0px 5px;
+=======
+    position: relative;
+    float: right;
+    margin: 1px 5px;
+}
+
+#buttonregistreren{
+    position: relative;
+    float: right;
+    margin: 1px 5px;
+>>>>>>> c069f20c45d6843869315c6c58ada6321e0f6075
 }
 
 #contact {
@@ -45,7 +57,7 @@ body{
 }
 .img{
     width: 100%;
-    height: 665px;
+    height: 250px;
 }
 
 .homelink a:link, a:visited, a:hover, a:active {
@@ -59,20 +71,19 @@ body{
     color: black;
 }
 
+<<<<<<< HEAD
 .imginformatie {
-    width: 100%;
-    padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #999999;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: right;
+
 }
 
 #informatie {
-    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#Tekst {
-    margin-top: 1000px;
-}
+=======
+>>>>>>> c069f20c45d6843869315c6c58ada6321e0f6075

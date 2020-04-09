@@ -20,13 +20,14 @@ if(empty($_POST["email"])){
     $password = "geheim";
     $password_hash = password_hash($password, PASSWORD_BCRYPT);
     
+    
 
     $sql = "INSERT INTO `register` (`id`, 
-                                    `email`, 
+                                    `email`,
                                     `password`, 
                                     `userrole`) 
                      VALUES        (NULL, 
-                                    '$email', 
+                                    '$email',
                                     '$password_hash', 
                                     'customer');";
 
@@ -55,7 +56,7 @@ if(empty($_POST["email"])){
           <body>
             <h2>Beste gebruiker,</h2>
             <p>U heeft zich onlang geregistreed op onze site GeenGehoor.org</p>
-            <p>klik <a href="http://geengehoorproject3.org/index.php?content=activate&id='. $id .'&pwh=' . $password_hash . '">hier</a> om je account te activeren en het wijzigen van je wachtwoord.</p>
+            <p>klik <a href="http://project3.org/index.php?content=activate&id='. $id .'&pwh=' . $password_hash . '">hier</a> om je account te activeren en het wijzigen van je wachtwoord.</p>
             <p>Bedankt voor het registreren.</p>
             <p>Met vriendelijke groet,</p>
             <p class="">CEO GeenGehoor.org</p>

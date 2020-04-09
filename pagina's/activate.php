@@ -33,4 +33,4 @@ if (!(isset($_GET["content"]) && isset($_GET["id"]) && isset($_GET["pwh"]))){
         <p>heb je al een account? <a href="#">Log In</a>.</p>
       </div> -->
     </form>
-  </div>>
+  </div>
