@@ -16,4 +16,5 @@
 									  <button type="submit" class="btn btn-success btn-block">Submit</button>
 								</form>
 							</article>
-						</section></div>
+						</section>
+					</div>

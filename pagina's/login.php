@@ -5,7 +5,7 @@
     <!-- Login Form -->
     <form>
       <input type="text" id="email" name="email" placeholder="email">
-      <input type="password" id="password" name="login" placeholder="password">
+      <input type="password" id="login" name="login" placeholder="password">
       <input type="submit" value="Log In">
     </form>
 
