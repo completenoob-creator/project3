@@ -26,17 +26,6 @@ body{
 }
 
 #buttonlogin {
-<<<<<<< HEAD
-   
-  
-    margin: 0px 5px;
-}
-
-#buttonregistreren{
-    
-   
-    margin: 0px 5px;
-=======
     position: relative;
     float: right;
     margin: 1px 5px;
@@ -46,7 +35,6 @@ body{
     position: relative;
     float: right;
     margin: 1px 5px;
->>>>>>> c069f20c45d6843869315c6c58ada6321e0f6075
 }
 
 #contact {
@@ -71,11 +59,7 @@ body{
     color: black;
 }
 
-<<<<<<< HEAD
 .imginformatie {
-    position: relative;
-    top: 0px;
-    right: 0px;
     float: right;
 
 }
@@ -85,5 +69,3 @@ body{
     justify-content: center;
     align-items: center;
 }
-=======
->>>>>>> c069f20c45d6843869315c6c58ada6321e0f6075

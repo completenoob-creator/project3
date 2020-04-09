@@ -1,13 +1,11 @@
 <section id="informatie">
-
+    <div class="container">
     <div>
-        <div class="imginformatie">
+        <div class="imginformatie col-sm-6">
             <img src="./img/informatie1.jpg" alt="Doof">
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
+        <div class="row col-sm-6">
             <div id="Tekst">
                 <div>
 
