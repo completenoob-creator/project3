@@ -26,14 +26,14 @@ body{
 }
 
 #buttonlogin {
-    position: relative;
-    float: right;
+   
+  
     margin: 0px 5px;
 }
 
 #buttonregistreren{
-    position: relative;
-    float: right;
+    
+   
     margin: 0px 5px;
 }
 
@@ -57,4 +57,22 @@ body{
 
 .h5home{
     color: black;
+}
+
+.imginformatie {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #999999;
+}
+
+#informatie {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Tekst {
+    margin-top: 1000px;
 }

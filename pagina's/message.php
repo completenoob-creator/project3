@@ -23,7 +23,7 @@
             break;
 
         case 'hacker-alert':
-            echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">JE KOMT ER NIET DOORHEEN!.</div>';
+            echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">JE KOMT ER NIET DOORHEEN!</div>';
             header("refresh: 3; url=./index.php?content=registreren");
             break;
 
