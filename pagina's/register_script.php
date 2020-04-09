@@ -20,13 +20,14 @@ if(empty($_POST["email"])){
     $password = "geheim";
     $password_hash = password_hash($password, PASSWORD_BCRYPT);
     
+    
 
     $sql = "INSERT INTO `register` (`id`, 
-                                    `email`, 
+                                    `email`,
                                     `password`, 
                                     `userrole`) 
                      VALUES        (NULL, 
-                                    '$email', 
+                                    '$email',
                                     '$password_hash', 
                                     'customer');";
 
