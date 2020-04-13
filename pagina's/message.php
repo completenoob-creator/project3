@@ -32,12 +32,23 @@
             header("refresh: 3; url=./index.php?content=registreren");
             break;
 
-         case 'NoMatch-Password':
+        case 'NoMatch-Password':
             echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">no match password</div>';
             header("refresh: 3; url=./index.php?content=registreren");
             break;
 
-                
+        case 'login-succesvol':
+            echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">Je bent ingelogd.</div>';
+            header("refresh: 3; url=./index.php?content=registreren");
+            break;
+
+        case 'login-error':
+            echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">Je bent niet ingelogd.</div>';
+            header("refresh: 3; url=./index.php?content=registreren");
+            break;
+
+
+
         default:
             header("Location: ./index.php?content=home");
             break;

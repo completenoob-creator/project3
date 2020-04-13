@@ -12,12 +12,10 @@ $result = mysqli_query($conn, $sql);
 
 $row = mysqli_fetch_array($result);
 if ($row['email'] ==$email  && $row['password'] == $password){
-    echo "login success!!!  Welcom ";
+    header("Location: ./index.php?content=message&alert=login-succesvol");
 } else {
-    echo" failed to login!";
+    header("Location: ./index.php?content=message&alert=login-error");
 }
-
-
 
 ?>
 
