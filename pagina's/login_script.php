@@ -6,12 +6,23 @@ $email = $_POST['email'];
 $password = $_POST['login'];
 
 
-$sql= "SELECT * FROM register WHERE `email` = '$email' AND `password` = '$password'";
+
+$sql= "SELECT * FROM `register` WHERE `email` = '$email'";
+// echo $sql;exit();
 
 $result = mysqli_query($conn, $sql);
 
 $row = mysqli_fetch_array($result);
-if ($row['email'] ==$email  && $row['password'] == $password){
+
+var_dump($row['email'] == $email);
+var_dump($row['password']);
+var_dump($password);
+
+var_dump(password_verify($password, $row["password"]));
+
+// exit();
+
+if ($row['email'] == $email  && password_verify($password, $row["password"])){
     header("Location: ./index.php?content=message&alert=login-succesvol");
 } else {
     header("Location: ./index.php?content=message&alert=login-error");

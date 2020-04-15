@@ -56,7 +56,8 @@ if(empty($_POST["email"])){
           <body>
             <h2>Beste gebruiker,</h2>
             <p>U heeft zich onlang geregistreed op onze site GeenGehoor.org</p>
-            <p>klik <a href="http://geengehoorproject3.org/index.php?content=activate&id='. $id .'&pwh=' . $password_hash . '">hier</a> om je account te activeren en het wijzigen van je wachtwoord.</p>
+          
+            <p>klik <a href="http://www.geengehoorproject3.org/index.php?content=activate&id='. $id .'&pwh=' . $password_hash . '">hier</a> om je account te activeren en het wijzigen van je wachtwoord.</p>
             <p>Bedankt voor het registreren.</p>
             <p>Met vriendelijke groet,</p>
             <p class="">CEO GeenGehoor.org</p>
