@@ -73,3 +73,11 @@ body{
 #NavBar{
     margin-left: 5%;
 }
+
+#Text{
+    float: left;
+}
+
+#imgDoof{
+    float: right;
+}
