@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row z-index">
             <div class="col-12">
                 <?php include("./pagina's/content.php"); ?>
             </div>

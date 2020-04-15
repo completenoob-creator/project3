@@ -9,7 +9,7 @@
 									<div class="form-group">
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-envelope"> </i></span>
-											<input name="email" type="email" class="form-control" placeholder="Email Address">
+											<input name="email" type="email" class="form-control" placeholder="Email Address" autofocus>
 										</div>
 									</div>
 									<h6>Bij het maken van uw account gaat u akkoord met de <a href="index.php?content=regelsvoorwaarde">Regeltjes</a> van GeenGehoor.</h6>

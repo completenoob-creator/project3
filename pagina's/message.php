@@ -39,7 +39,7 @@
 
         case 'login-succesvol':
             echo '<div style="text-align:center"class="alert alert-info mt-1" role="alert">Je bent ingelogd.</div>';
-            header("refresh: 3; url=./index.php?content=registreren");
+            header("refresh: 3; url=./index.php?content=home");
             break;
 
         case 'login-error':
@@ -47,6 +47,18 @@
             header("refresh: 3; url=./index.php?content=registreren");
             break;
 
+        case 'loguit':
+            echo '<div style="text-align:center"class="alert alert-success mt-1" role="alert">Je bent uitgelogt</div>';
+            header("refresh: 3; url=./index.php?content=home");
+            break;
+        case 'auht-error':
+            echo '<div style="text-align:center"class="alert alert-warning mt-1" role="alert">je hebt de bevoegtheid niet</div>';
+            header("refresh: 3; url=./index.php?content=home");
+            break;
+        case 'auht-error-user':
+            echo '<div style="text-align:center"class="alert alert-warning mt-1" role="alert">je hebt de bevoegtheid niet als deze gebruiker</div>';
+            header("refresh: 3; url=./index.php?content=home");
+            break;
 
 
         default:

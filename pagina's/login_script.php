@@ -2,8 +2,8 @@
 include("./pagina's/connect_db.php");
 include("./pagina's/functions.php");
 
-$email = $_POST['email'];
-$password = $_POST['login'];
+$email = sanitize($_POST['email']);
+$password = sanitize($_POST['login']);
 
 
 
@@ -14,16 +14,31 @@ $result = mysqli_query($conn, $sql);
 
 $row = mysqli_fetch_array($result);
 
-var_dump($row['email'] == $email);
-var_dump($row['password']);
-var_dump($password);
-
-var_dump(password_verify($password, $row["password"]));
-
-// exit();
-
 if ($row['email'] == $email  && password_verify($password, $row["password"])){
     header("Location: ./index.php?content=message&alert=login-succesvol");
+
+    $_SESSION["id"] = $row["id"];
+    $_SESSION["userrole"] = $row["userrole"];
+
+
+  switch($row["userrole"]){
+      case 'customer':
+        header("Location: ./index.php?content=c-home");
+      break;
+      case 'moderator':
+        header("Location: ./index.php?content=m-home");
+      break;
+      case 'admin':
+        header("Location: ./index.php?content=a-home");
+      break;
+      case 'root':
+        header("Location: ./index.php?content=r-home");
+      break;
+      case 'moderator':
+        header("Location: ./index.php?content=home");
+      break;
+  }
+    
 } else {
     header("Location: ./index.php?content=message&alert=login-error");
 }
