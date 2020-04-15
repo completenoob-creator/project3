@@ -81,7 +81,6 @@ session_gc(); ?>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="./index.php?content=a-users">users</a>
-              <a class="dropdown-item" href="./index.php?content=a-reset">reset passwords</a>
             </div>
           </li>';
         break;
