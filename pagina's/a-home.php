@@ -1,5 +1,5 @@
 <?php 
-include("./functions.php");
+include("./pagina's/functions.php");
 is_authorized(["admin", "root"])
 ?>
 
