@@ -59,6 +59,10 @@
             echo '<div style="text-align:center"class="alert alert-warning mt-1" role="alert">je hebt de bevoegtheid niet als deze gebruiker</div>';
             header("refresh: 3; url=./index.php?content=home");
             break;
+        case 'succes_vol':
+            echo '<div style="text-align:center"class="alert alert-success mt-1" role="alert">de gebruiker is verwijdert</div>';
+            header("refresh: 3; url=./index.php?content=home");
+            break;
 
 
         default:

@@ -5,8 +5,8 @@ function regisreren(){
 function login(){
     location = 'index.php?content=login';
 };
-function uitlogen(){
-    location = 'index.php?content=uitlogen';
+function uitloggen(){
+    location = 'index.php?content=uitloggen';
 };
 function game(){
     location = 'index.php?content=game';

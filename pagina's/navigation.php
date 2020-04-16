@@ -100,7 +100,7 @@ session_gc(); ?>
       break;
         }
 
-        echo '<button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="uitlogen()">uitlogen</button>';
+        echo '<button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="uitloggen()">uitlogen</button>';
       }else{
         echo'<button class="btn btn-outline-success float-left" type="submit" id="buttonlogin" onclick="regisreren()">Registreren</button>
               <button class="btn btn-outline-success float-left" type="submit" id="buttonregistreren" onclick="login()">login</button>';

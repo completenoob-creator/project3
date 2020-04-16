@@ -23,7 +23,8 @@ while ($record = mysqli_fetch_assoc($result)){
                 "</th><td> " . $record["email"] . 
                 "</td><td> " . $record["password"] . 
                 "</td><td> " . $record["userrole"] . "</td>
-                <td><a href='index.php?content=r-update&id=". $record["id"] ."'><img src='./img/icon/b_edit.png'</td></a>
+                <td><a href='index.php?content=r-update&id=". $record["id"] ."'><img src='./img/icon/b_edit.png'</a></td>
+                <td><a href='index.php?content=r-drop&id=". $record["id"] ."'><img src='./img/icon/b_drop.png'</a></td>
                 </tr>";
 };
 
@@ -36,6 +37,7 @@ while ($record = mysqli_fetch_assoc($result)){
             <th scope="col">email</th>
             <th scope="col">password</th>
             <th scope="col">userrole</th>
+            <th scope="col"></th>
             <th scope="col"></th>
         </tr>
     </thead>

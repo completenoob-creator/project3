@@ -4,7 +4,11 @@ is_authorized(["admin", "root", "moderator", "customer"])
 ?>
 c-home
 <?php
-echo "mijn id is " . $_SESSION["id"];
+echo "Mijn id is " . $_SESSION["id"];
 echo "<hr>";
-echo "mijn rol is " . $_SESSION["userrole"]
+echo "Mijn rol is " . $_SESSION["userrole"];
+echo "<hr>";
+echo "Ik kan echt helemaal niks op deze site behalve door de site heen gaan.";
 ?>
+
+<?php 
